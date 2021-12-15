@@ -91,7 +91,7 @@ hydra -P /wordlistdir/.../pass.dic -l Elliot 10.10.241.154 http-post-form "/wp-l
 - -P = a list of Passwords
 + after "http-post-form" comes a capured Post request (From Burbsuite...) 
 + use ^USER^ and ^PASS^! 
-+ after ":S=302" check for redirect 
++ ":S=302" check for redirect 
 ```
 [Common HTML error codes](https://kb.iu.edu/d/bfrc)
 # Color
