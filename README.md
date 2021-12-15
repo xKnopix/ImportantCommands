@@ -20,7 +20,7 @@ nmap -sV -sC IP
 
 ```diff
 # -sV: Probe open ports to determine service/version info  
-# -sV: Probe open ports to determine service/version info  
+#-sC: equivalent to --script=default  
 # -O: Enable OS detection  
 #  -oN/-oX/-oS/-oG <file>: Output scan in normal, XML, s|<rIptkIddi3,and Grepable format, respectively, to the givenfilename.
 ```
