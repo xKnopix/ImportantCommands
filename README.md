@@ -5,8 +5,8 @@
 2. [DirBister](#DirBuster)
 3. [Gobuster](#Gobuster)
 4. [Nikto](#Nikto)
-    1. [Sub paragraph Example](#subparagraph1)
 5. [NC](#NC)
+    1. [Listen_For_Reverse_Shell](#Listen_For_Reverse_Shell)
 6. [Hydra](#Hydra)
 7. [Usefull Linux Commands](#Usefull_Linux_Commands)
 
@@ -45,6 +45,10 @@ nikto -h 10.10.241.154
 # -port+    Port to use (default 80)
 # -output+  Write output to this file
 ```
+
+## NC
+
+### Listen_For_Reverse_Shell
 # Color
 
 ```diff
