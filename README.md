@@ -12,7 +12,7 @@
 
 ## Nmap
 Nmap Command 
-```
+```diff
 nmap -sV -sC IP
 ```
 
@@ -28,10 +28,23 @@ nmap -sV -sC IP
 dirb http://IP
 ```
 ## Gobuster
-```
+```diff
 gobuster dir -u IP -w /usr/share/wordlists/dirb/big.txt
 ```
+```diff
+# -w, --wordlist string   Path to the wordlist
+# -o, --output string     Output file to write results to (defaults to stdout)
+# -t, --threads int       Number of concurrent threads (default 10)
+```
 
+## Nikto
+```diff
+nikto -h 10.10.241.154
+```
+```diff
+# -port+    Port to use (default 80)
+# -output+  Write output to this file
+```
 # Color
 
 ```diff
