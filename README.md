@@ -13,18 +13,24 @@
 ## Nmap
 Nmap Command 
 ```
-    nmap -sV -sC IP
+nmap -sV -sC IP
 ```
 
 ```diff
-+ -sV: Probe open ports to determine service/version info  
-+ -sV: Probe open ports to determine service/version info  
-+ -O: Enable OS detection  
-+  -oN/-oX/-oS/-oG <file>: Output scan in normal, XML, s|<rIptkIddi3,and Grepable format, respectively, to the givenfilename.
+# -sV: Probe open ports to determine service/version info  
+# -sV: Probe open ports to determine service/version info  
+# -O: Enable OS detection  
+#  -oN/-oX/-oS/-oG <file>: Output scan in normal, XML, s|<rIptkIddi3,and Grepable format, respectively, to the givenfilename.
 ```
 
 ## DirBuster
+```
+dirb http://IP
+```
 ## Gobuster
+```
+gobuster dir -u IP -w /usr/share/wordlists/dirb/big.txt
+```
 
 # Color
 
