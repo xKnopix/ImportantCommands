@@ -138,7 +138,7 @@ cd "Path"
 ```
 ### HISTORY
 ```diff
-history #shows command history
+@@ history #shows command history @@
 ```
 ### CAT
 ```diff
