@@ -115,3 +115,45 @@ hydra -P /wordlistdir/.../pass.dic -l Elliot 10.10.241.154 http-post-form "/wp-l
 
     os.system("ls -la")
 ```
+
+# DV2
+## Shebang line (set interpreter)
+```bash
+#!/bin/python3
+```
+## Change permissions
+rwx _ _ _  _ _ _
+```bash
+chmod u+rwx
+chmod u+x
+```
+```bash
+chmod g+rwx
+```
+```bash
+chmod o+rwx
+```
+
+## enviromentVariabels
+
+- PATH
+
+### Usage:
+```bash
+printenv
+echo $PATH #outputs a Variable
+```
+
+## Subprocesses
+```bash
+./datei.sh &
+```
+or if process is aready running
+```bash
+ctr+z
+```
+return to subprocess 
+```bash
+bg
+fg
+```
