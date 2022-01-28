@@ -183,7 +183,7 @@ pstree #shows a tree of Processes(Parent and Subprocesses)
 ```bash
 #!/bin/python3
 ```
-### Change permissions
+### CHMOD (Change permissions)
 rwx _ _ _  _ _ _
 ```bash
 chmod u+rwx
@@ -199,11 +199,46 @@ chmod o+rwx
 - don´t chmod 777 (rxw rxw rxw)
 7 = permission to read write and execute
 ```
+### MAN (information about a command)
+```bash
+man
+```
+### APROPOS (searchs commands related to a keyword)
+```bash
+apropos [OPTIONS] keyword
+```
+### Parse command output to file
+```bash
+cat file > outputfile #parse only command output(No Errors) to outputfile
+cat file &> outputfile #parse output and Errors to outputfile
+cat file 2> outputfile #parse only Errors to outputfile
+cat file >> outputfile #if outputfile exists than the new file output will append to existing file 
+```
+### pipe
+```bash
+ps -ef | grep xeyes # "|" pipes output from "ps -ef" to "grep xeyes"  
+```
+### FREE (shows free space)
+```bash
+free
+```
+### df (shows Hardrives)
+```bash
+df
+```
+### uname (system information)
+```bash
+uname -a #shows system and version of system
+```
+## Priorities (Not complete)
+```bash
+nice 
+```
 ## enviroment Variabels
-
+```bash
 - PATH
-
-### Usage:
+```
+Usage:
 ```bash
 printenv #shows all variables
 echo $PATH #outputs a Variable
@@ -223,4 +258,8 @@ bg # background
 fg #foreground
 ```
 
+## VI
+```diff
+- vimtutor
+```
 ## important files
