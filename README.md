@@ -117,6 +117,25 @@ hydra -P /wordlistdir/.../pass.dic -l Elliot 10.10.241.154 http-post-form "/wp-l
 ```
 
 # DV2
+## Common commands
+```diff
+pwd #shows current dir  
+ls #shows files in a folder
++ -l #
++ -a # list all
+! drwx rwx rwx # d = dir;
+cd "Path"
++ ~ = home dir
++ .. = dir "over" current dir
++ . = current dir
+
+@@ history
+cat
+.programmname #starts a programm
+```
+## important files
+
+
 ## Shebang line (set interpreter)
 ```bash
 #!/bin/python3
@@ -133,14 +152,17 @@ chmod g+rwx
 ```bash
 chmod o+rwx
 ```
-
-## enviromentVariabels
+```diff
+- don´t chmod 777 (rxw rxw rxw)
+7 = permission to read write and execute
+```
+## enviroment Variabels
 
 - PATH
 
 ### Usage:
 ```bash
-printenv
+printenv #shows all variables
 echo $PATH #outputs a Variable
 ```
 
@@ -157,3 +179,4 @@ return to subprocess
 bg
 fg
 ```
+
