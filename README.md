@@ -167,14 +167,23 @@ CMD = the command which started the Process
 kill "PID"# sends stop message to process
 + -9 #force quit #options from 0-9
 ```
-## important files
-
-
-## Shebang line (set interpreter)
+### KILLALL
+```diff
+killall "programmname"
+```
+### TOP
+```diff
+top #interactive processes (sorted by usage of system resources)
+```
+### PSTREE
+```diff
+pstree #shows a tree of Processes(Parent and Subprocesses)
+```
+### Shebang line (set interpreter)
 ```bash
 #!/bin/python3
 ```
-## Change permissions
+### Change permissions
 rwx _ _ _  _ _ _
 ```bash
 chmod u+rwx
@@ -210,7 +219,8 @@ ctr+z
 ```
 return to subprocess 
 ```bash
-bg
-fg
+bg # background
+fg #foreground
 ```
 
+## important files
