@@ -230,6 +230,12 @@ df
 ```bash
 uname -a #shows system and version of system
 ```
+## Wildcards
+```diff
+* 
+?
+[]
+```
 ## Priorities (Not complete)
 ```bash
 nice 
