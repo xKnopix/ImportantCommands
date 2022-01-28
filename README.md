@@ -144,6 +144,15 @@ cd "Path"
 ```diff
 cat
 ```
+### TOUCH (creates a file)
+```diff
+touch <filename>
+```
+### MKDIR
+```diff
+mkdir <dirname>
+```
+
 ### .
 ```diff
 .programmname #starts a programm
@@ -231,10 +240,23 @@ df
 uname -a #shows system and version of system
 ```
 ## Wildcards
+### overview
 ```diff
 * 
 ?
 []
+```
+### Usage:
+List all files that contains "test" in filename
+```bash
+Ls | grep *test*
+```
+List all file that contains a number between [0-9]
+```bash
+Ls | Grep *[0-9]*
+```
+```bash
+ls te?t 
 ```
 ## Priorities (Not complete)
 ```bash
