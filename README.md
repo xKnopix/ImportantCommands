@@ -118,20 +118,54 @@ hydra -P /wordlistdir/.../pass.dic -l Elliot 10.10.241.154 http-post-form "/wp-l
 
 # DV2
 ## Common commands
+### PWD
 ```diff
 pwd #shows current dir  
+```
+### LS
+```diff
 ls #shows files in a folder
 + -l #
 + -a # list all
 ! drwx rwx rwx # d = dir;
+```
+### CD
+```diff
 cd "Path"
 + ~ = home dir
 + .. = dir "over" current dir
 + . = current dir
-
-@@ history
+```
+### HISTORY
+```diff
+history #shows command history
+```
+### CAT
+```diff
 cat
+```
+### .
+```diff
 .programmname #starts a programm
+ctrl+c #stops a programm
+```
+### PS
+```diff
+ps #shows processes on current user
++ -ef #shows all processes
+
+UID = user
+PID = Process ID
+PPID = if a process started a new Process
+TIME = running time
+STIME =
+CMD = the command which started the Process
+[process] = kernel process
+```
+### KILL
+```diff
+kill "PID"# sends stop message to process
++ -9 #force quit #options from 0-9
 ```
 ## important files
 
