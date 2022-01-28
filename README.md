@@ -127,6 +127,7 @@ pwd #shows current dir
 ls #shows files in a folder
 + -l # use a long listing format
 + -a # list all
++ - R #list all subfolders
 ! drwx rwx rwx # d = dir;
 ```
 ### CD
@@ -135,6 +136,24 @@ cd "Path"
 + ~ = home dir
 + .. = dir "over" current dir
 + . = current dir
+```
+### MV
+Move
+```diff
+mv <dir/filename> </newDir/newFilename>
++ -d #for directory
+```
+### RM
+Remove
+```diff
+rm <filename>
++ -d #for directory
+```
+### CP
+Copy
+```diff
+cp <filename>
++ -d #for directory
 ```
 ### HISTORY
 ```diff
