@@ -125,7 +125,7 @@ pwd #shows current dir
 ### LS
 ```diff
 ls #shows files in a folder
-+ -l #
++ -l # use a long listing format
 + -a # list all
 ! drwx rwx rwx # d = dir;
 ```
@@ -261,5 +261,9 @@ fg #foreground
 ## VI
 ```diff
 - vimtutor
+```
+## Makefiles
+```diff
+- anschauen!
 ```
 ## important files
